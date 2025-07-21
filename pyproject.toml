@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "doorbellbot"
+version = "0.1.0"
+description = ""
+authors = ["Zak Kristjanson <zak.kristjanson@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+uiprotect = "^7.5.1"
+python-telegram-bot = "^21.10"
+starlette = "^0.45.3"
+uvicorn = "^0.34.0"
+python-dotenv = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
